@@ -1,0 +1,11 @@
+﻿Game1.cs - Main game class. Monogame equivilent of a Windows Form. Instantiated and launched by Program.cs
+Entities/
+	Bullet - Class for bullet
+	Enemy - Class for enemies
+	Player - Class for player
+Interfaces/
+	IEntity - Interface for all entities. Used so that generic lists become possible.
+Screens/
+	TitleScreen.cs - Tiny class to encapsulate the rendering of the title screen, also used for other full-screens such as the game over screen by swapping out the texture.
+Util/
+	SpawnEnemies - Small static class to spawn all of the enemies with the rows and columns passed to it by Game1.cs
